@@ -1,0 +1,6 @@
+include ':app'
+rootProject.name='My Application'
+include ':module_reader:library'
+include ':module_reader:zip-amse'
+include ':module_reader:ambilWarna'
+include ':mylibrary'
