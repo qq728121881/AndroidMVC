@@ -58,6 +58,7 @@ deps.glide = "com.github.bumptech.glide:glide:$versions.glide"
 
 
 deps.okhttp3 = "com.squareup.okhttp3:okhttp:$versions.okhttp3"
+deps.logginginterceptor = "com.squareup.okhttp3:logging-interceptor:3.12.1"
 
 //objectbox
 def objectbox = [:]
