@@ -14,6 +14,8 @@ public final class ARouterPath {
 
     //app
     public static final String APP_HOME = "/app_home/activity/HomeActivity";
+    public static final String APP_SETING = "/seting/SetingActivity";
+    public static final String APP_SETING_MAIN = "/seting/MainActivity";
 
 
 }

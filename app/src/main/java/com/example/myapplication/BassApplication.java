@@ -12,13 +12,13 @@ public class BassApplication extends Application {
     public void onCreate() {
         super.onCreate();
         AppTool.getInstance().setAppTool(this);
-        ARouter.init(this);
-        Utils.init(this);
-//        if (Utils.isAppDebug()) {
-//            //开启InstantRun之后，一定要在ARouter.init之前调用openDebug
-//            ARouter.openDebug();
-//            ARouter.openLog();
-//        }
 
+        Utils.init(this);
+        if (Utils.isAppDebug()) {
+            //开启InstantRun之后，一定要在ARouter.init之前调用openDebug
+            ARouter.openDebug();
+            ARouter.openLog();
+        }
+        ARouter.init(this);
     }
 }
